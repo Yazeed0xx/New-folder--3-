@@ -63,3 +63,41 @@ else if(musicians>=1){
 else{
     console.log("not a group")
 }
+
+var room = "billiards room";
+
+
+// 4
+var balance = -325;
+var checkBalance = true;
+var isActive = true;
+if (checkBalance === true){
+    
+    if (isActive === true && balance > 0) {
+        console.log("Your balance is $" + balance + ".");
+    }
+    else if (isActive === true && balance === 0){
+        console.log("Your account is empty.");
+    } 
+    else if (isActive === true && balance < 0){
+    }
+    else if (isActive === false) {
+    }  
+
+    
+}
+// ---------------------------------//
+var shirtWidth = 23;
+var shirtLength = 30;
+var shirtSleeve = 5.71;
+
+if(shirtLength, shirtSleeve ,shirtWidth){
+    console.log("s")
+
+}
+else if(shirtLength, shirtSleeve ,shirtWidth>shirtLength, shirtSleeve ,shirtWidth){
+console.log("L")
+}
+else if(shirtLength, shirtSleeve ,shirtWidth>shirtLength, shirtSleeve ,shirtWidth)
+    console.log("s")
+
