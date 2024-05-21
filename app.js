@@ -17,7 +17,7 @@ console.log("NN hours ="+hour+"NN seconds "+second)
 
 let thingone = `ellwwlw`;
 let thingtwo = `keldelel`;
-// console.log(`${thingtwo}+${thingone}`);
+console.log(`${thingtwo}+${thingone}`);
 
 var bill = 10.25 + 3.99 + 7.15;
 var tip = bill /0.15; 
@@ -25,8 +25,41 @@ var total = tip;
 console.log(total);
 
 
-let firstName = "yazeed";
+// let firstName = "yazeed";
 
-let interest ="football";
-let hobby = "gamong"
-let awesomeMessage ="my name is"`${firstName}'"i love"`${interest}`""In my spare time, I like to"${hobby}`
+// let interest ="football";
+// let hobby = "gamong"
+// let awesomeMessage ="my name is"`${firstName}'"i love"`${interest}`""In my spare time, I like to"${hobby}`
+
+
+////////////////////  lap 2              ///////////////////////////////////
+
+
+// let eatsPlants= "herbivore"
+// let eatsAnimals= "carnivore"
+
+// while(e){
+
+// }
+
+var musicians  = 4;
+if(musicians>=5){
+    console.log("this is a large group")
+
+}
+else if(musicians>=4){
+    console.log("quartet")
+
+
+}else if(musicians>=3){
+    console.log("trio")
+}
+else if(musicians>=2){
+    console.log("duet")
+}
+else if(musicians>=1){
+    console.log("solo")
+}
+else{
+    console.log("not a group")
+}
